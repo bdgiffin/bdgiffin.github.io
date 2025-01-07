@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Assistant Professor. <a href='https://experts.okstate.edu/brian.giffin/about'>Oklahoma State University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: giffin_headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>228 Engineering North</p>
+    <p>Oklahoma State University</p>
+    <p>Stillwater, Oklahoma 74078</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My area of expertise and research background is in the development of finite element methods and non-linear constitutive models. My research spans a variety of topics and application areas that have primarily supported the programmatic interests of the Department of Energy, including: the development of novel finite element formulations for improved modeling of composites and shell structures; formulation of non-linear material models characterizing the behavior of metals and polymers under extreme loading conditions; and driving improvements in the numerical modeling of contacting interfaces, and finite element code coupling strategies for modeling fluid-structure interaction.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+The goal of my research is to drive improvements in the high-fidelity modeling of extreme loads on structures through the development of novel numerical simulation methods and the use of high-performance computing. Future research projects I plan to pursue include: creation of high-fidelity simulation frameworks to model blast, tornado, and debris loads on structures to quantify risks to critical infrastructure; development of scalable and efficient numerical methods for the modeling of contact and friction in large-scale engineering analyses; and investigating the use of reverse computing principles to enable the solution of large-scale time-dependent structural optimization and inverse problems.
