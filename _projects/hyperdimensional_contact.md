@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Hyper-dimensional contact gap methods
-description: a novel finite element contact discretization method
-img: assets/img/hyperdimensional_gap_cover_image.png
+description: A novel finite element contact discretization method
+img: assets/img/hyperdimensional_contact/hyperdimensional_gap_cover_image.png
 importance: 1
 category: work
-related_publications: true
 ---
 
 <div class="row">
@@ -31,9 +30,9 @@ In the classical theory of two-body contact, a single shared contact interface i
     Illustration of conventional finite element contact discretization and enforcement methodologies
 </div>
 
-In general, the computational cost of numerically solving finite element problems involving contact may be attributed to the large number of iterations required to determine which regions of the contacting interface are ``active,'' which is compounded by the computational expense inherent to the algorithms used for proximity and overlap detection, geometric projection, and gap integral evaluation. Active efforts to reduce the computational expense of contact procedures has emphasized improvements in reducing cost associated with the non-linear iteration procedure, and with the computational geometry operations. The present contributions focus primarily on the latter.
+In general, the computational cost of numerically solving finite element problems involving contact may be attributed to the large number of iterations required to determine which regions of the contacting interface are "active," which is compounded by the computational expense inherent to the algorithms used for proximity and overlap detection, geometric projection, and gap integral evaluation. Active efforts to reduce the computational expense of contact procedures has emphasized improvements in reducing cost associated with the non-linear iteration procedure, and with the computational geometry operations. The present contributions focus primarily on the latter.
 
-The methodology proposed herein serves as a departure from classical finite element contact enforcement approaches, in that the restriction on conforming finite element surface topologies is relaxed. The manner in which the constraints are enforced, and how certain fundamental quantities of interest (gap, normal) are computed also differs from most other alternative contact discretization methods, and most closely resembles a ``contact domain method.''
+The methodology proposed herein serves as a departure from classical finite element contact enforcement approaches, in that the restriction on conforming finite element surface topologies is relaxed. The manner in which the constraints are enforced, and how certain fundamental quantities of interest (gap, normal) are computed also differs from most other alternative contact discretization methods, and most closely resembles a "contact domain method."
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
