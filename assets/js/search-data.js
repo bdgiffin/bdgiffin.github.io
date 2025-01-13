@@ -157,6 +157,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-hyper-dimensional-contact-gap-methods",
+          title: 'Hyper-dimensional contact gap methods',
+          description: "a novel finite element contact discretization method",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hyperdimensional_contact/";
             },},{
         id: 'social-email',
         title: 'email',
