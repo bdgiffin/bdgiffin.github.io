@@ -122,6 +122,11 @@ ninja.data = [{
           description: "Exploration of exactly &quot;bit-reversible&quot; dynamic time-integrators",
           section: "Projects",handler: () => {
               window.location.href = "/projects/reverse_time_dynamics/";
+            },},{id: "projects-national-student-steel-bridge-competition-resources",
+          title: 'National Student Steel Bridge Competition resources',
+          description: "Educational videos and tools directed at students participating in the NSSBC",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/steel_bridge/";
             },},{id: "projects-structural-wind-borne-debris-impact-risk-assessment-library-swirl",
           title: 'Structural Wind-borne debris Impact Risk Assessment Library (SWIRL)',
           description: "A physics-based fluid-structure-debris modeling framework",
