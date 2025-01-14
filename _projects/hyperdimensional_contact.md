@@ -4,7 +4,8 @@ title: Hyper-dimensional contact gap methods
 description: A novel finite element contact discretization method
 img: assets/img/hyperdimensional_contact/hyperdimensional_gap_cover_image.png
 importance: 1
-category: work
+category: research
+related_publications: true
 ---
 
 <div class="row">
@@ -46,31 +47,15 @@ The methodology proposed herein serves as a departure from classical finite elem
     Conceptual illustration of a hyper-parameterized representation of the intermediate contact surface, and its interpretation as a hyper-dimensional intermediate contact domain (volume)
 </div>
 
-In this project, a new methodology for the enforcement of contact constraints in the context of finite element analyses is proposed. The method entails an alternative representation of contact surface integrals by equivalently integrating over the interstitial – albeit degenerate gap volume between two contacting bodies. An auxiliary indicator field is defined on each body, and is used to represent the degenerate interstitial volume as a non-degenerate hyper-dimensional gap volume. Over this domain, the gradient of the continuously interpolated displacement field with respect to the indicator field yields the oriented displacement gap, which may be used in the formulation of contact inequality constraints. Discretization of the hyper-dimensional gap volume into conforming finite elements is explored, and is observed to offer several advantages over existing contact discretization methods: the proposed method does not require the computation of geometric intersections or projections; it exploits conventional Gaussian quadrature schemes to integrate the hyper-dimensional gap integrals with a sufficient degree of accuracy; and may be naturally and efficiently extended to represent contact between higher-order surfaces.
+In this project {% cite giffin_2024c %}, a new methodology for the enforcement of contact constraints in the context of finite element analyses is proposed. The method entails an alternative representation of contact surface integrals by equivalently integrating over the interstitial – albeit degenerate gap volume between two contacting bodies. An auxiliary indicator field is defined on each body, and is used to represent the degenerate interstitial volume as a non-degenerate hyper-dimensional gap volume. Over this domain, the gradient of the continuously interpolated displacement field with respect to the indicator field yields the oriented displacement gap, which may be used in the formulation of contact inequality constraints. Discretization of the hyper-dimensional gap volume into conforming finite elements is explored, and is observed to offer several advantages over existing contact discretization methods: the proposed method does not require the computation of geometric intersections or projections; it exploits conventional Gaussian quadrature schemes to integrate the hyper-dimensional gap integrals with a sufficient degree of accuracy; and may be naturally and efficiently extended to represent contact between higher-order surfaces.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hyperdimensional_contact/hyperdimensional_contact_figure4.png" title="figure4" class="img-fluid rounded z-depth-0" %}
+        {% include figure.liquid loading="eager" path="assets/img/hyperdimensional_contact/demonstration_results.png" title="figure4" class="img-fluid rounded z-depth-0" %}
     </div>
 </div>
 <div class="caption">
-    Demonstration of tied contact patch test satisfaction using the proposed approach with linear and quadratic finite elements in 2D/3D problems; notably, solution accuracy to within machine precision is achieved when standard Gaussian quadrature rules are employed to evaluate constraint integrals over the discretized intermediate domain, highlighting the relative computational efficiency of the method
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hyperdimensional_contact/hyperdimensional_contact_figure5.png" title="figure5" class="img-fluid rounded z-depth-0" %}
-    </div>
-</div>
-<div class="caption">
-    Demonstration of solution error convergence properties under mesh refinement for a problem with a curved intermediate interface
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/hyperdimensional_contact/hyperdimensional_contact_figure6.png" title="figure6" class="img-fluid rounded z-depth-0" %}
-    </div>
-</div>
-<div class="caption">
-    Demonstration of smooth sliding behavior in a large deformation problem involving frictionless sliding without separation
+    Demonstration of the proposed method on a variety of benchmark problems. Left: smooth sliding behavior in a large deformation problem involving frictionless sliding without separation. Middle: solution error convergence properties under mesh refinement for a problem with a curved intermediate interface. Right: tied quadratic contact patch test satisfaction using the proposed approach in 3D.
 </div>
 
 Initial investigations presented above verify that the proposed method achieves appropriate accuracy and rates of convergence for several benchmark problems. Ongoing work seeks to extend the proposed approach to accommodate more general contact constraints with frictional sliding and separation.

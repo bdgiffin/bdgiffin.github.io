@@ -4,7 +4,7 @@ title: Structural Wind-borne debris Impact Risk Assessment Library (SWIRL)
 description: A physics-based fluid-structure-debris modeling framework
 img: assets/img/tornado_debris_impact/SWIRL_logo.png
 importance: 3
-category: work
+category: research
 ---
 
 <div class="row">

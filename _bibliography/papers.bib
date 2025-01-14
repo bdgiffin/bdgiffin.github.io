@@ -3,36 +3,37 @@
 
 @article{giffin_2024c,
 title = {Hyper-dimensional gap finite elements for the enforcement of interfacial constraints},
-author = {Giffin, B D},
-abstractNote = {In the classical theory of two-body contact, a single shared contact interface is con- sidered between two continuum bodies, and is further discretized as such in the finite element setting. In general, however, the finite element mesh topology of two contacting bodies will be non-conforming at this shared interface, requiring the definition of a preferred or intermediate surface over which integral constraints may be evaluated. The specification of this interface is deemed to be somewhat arbitrary, but in practice the numerical solution of contact problems may exhibit sensitivity to the particular choice of intermediate surface. A further complication concerns the need to establish projective mappings between the discretized finite element sur- faces and the chosen intermediate surface, particularly for the sake of evaluating the contact gap function between pairs of points on each of the two bodies.
+author = {Giffin, Brian Doran},
+abstract = {In the classical theory of two-body contact, a single shared contact interface is con- sidered between two continuum bodies, and is further discretized as such in the finite element setting. In general, however, the finite element mesh topology of two contacting bodies will be non-conforming at this shared interface, requiring the definition of a preferred or intermediate surface over which integral constraints may be evaluated. The specification of this interface is deemed to be somewhat arbitrary, but in practice the numerical solution of contact problems may exhibit sensitivity to the particular choice of intermediate surface. A further complication concerns the need to establish projective mappings between the discretized finite element sur- faces and the chosen intermediate surface, particularly for the sake of evaluating the contact gap function between pairs of points on each of the two bodies.
 In this work, a new methodology for the enforcement of contact constraints in the context of finite element analyses is proposed. The method entails an alternative representation of contact surface integrals by equivalently integrating over the interstitial – albeit degenerate gap volume between two contacting bodies. An auxiliary indicator field is defined on each body, and is used to represent the degenerate interstitial volume as a non-degenerate hyper-dimensional gap volume. Over this domain, the gradient of the continuously interpolated displacement field with respect to the indicator field yields the oriented displacement gap, which may be used in the for- mulation of contact inequality constraints. Discretization of the hyper-dimensional gap volume into conforming finite elements is explored, and is observed to offer several advantages over existing contact discretization methods: the proposed method does not require the computation of geometric intersections or projections; it exploits conventional Gaussian quadrature schemes to integrate the hyper-dimensional gap integrals with a sufficient degree of accuracy; and may be naturally and efficiently extended to represent contact between higher-order surfaces. The efficacy of the method is demonstrated on several benchmark problems. Continuing and future work is also discussed, with a focus on intended applications and extensions of the method.},
 doi = {10.23967/wccm.2024.109},
 url = {https://www.scipedia.com/public/Giffin_2024a},
+html = {https://www.scipedia.com/public/Giffin_2024a},
+pdf = {https://www.scipedia.com/wd/images/3/39/Draft_Sanchez_Pinedo_882096721109.pdf},
+slides = {giffin_WCCM2024.pdf},
 journal = {16th World Congress on Computational Mechanics},
-number = {},
-volume = {},
 place = {Vancouver, Canada},
 year = {2024},
 month = {July},
-selected = {true}
+selected = {true},
+bibtex_show = {true}
 }
 
-@article{giffin_2024b,
+@conference{giffin_2024b,
 title = {Model-Based Uncertainty in Predicting Damage to Near-Fault Reinforced Concrete Structures},
-author = {Kenawy, M and Giffin, B D},
-abstractNote = {Earthquake-induced ground shaking near rupturing faults typically contains strong velocity pulses dictated by the fault rupture characteristics and seismic wave propagation patterns, and can cause significant damage to civil structures compared to ground shaking at locations further away from the fault. Therefore, modeling of the nonlinear, and especially degrading, behavior of near-fault structures with a high degree of fidelity is important for evaluating the structural demands in geographical regions proximate to active faults. Several alternative modeling strategies of varying fidelities exist for representing damage mechanisms in structures under dynamic earthquake loading, but it remains unclear the extent to which the specific choice of modeling strategy affects the estimated risks to near-fault structures. In this study, we examine the bias associated with the predicted seismic demands on near-fault reinforced concrete structures due to deficiencies in the modeling of the degrading behavior of the structural components. We test the use of three different modeling approaches which represent the deterioration of the structural components in different ways: (1) a lumped-plasticity frame model which cumulatively represents several damage mechanisms using nonlinear springs at the ends of the structural components, (2) a conventional distributed-plasticity frame model which represents the deterioration of the concrete and steel materials using uniaxial constitutive models, but is subject to numerical singularities, and (3) a regularized distributed-plasticity frame model recently developed by the authors which utilizes a nonlocal damage technique to overcome artificial strain singularities in representing the deterioration of the concrete and steel materials. We conduct a series of nonlinear dynamic analyses to predict the seismic demands imposed by representative ensembles of near-fault ground motions on structures located between 1 and 15 km away from the fault, and we compare the statistical distributions of the demands associated with each damage modeling approach. The findings of this study highlight the advantages and deficiencies of the different structural modeling strategies in the seismic analysis of degrading systems, and will aid in quantifying the modeling uncertainty associated with performance-based design of near-fault structures.},
-doi = {10.23967/wccm.2024.109},
-url = {https://www.scipedia.com/public/Giffin_2024a},
+author = {Kenawy, Maha and Giffin, Brian Doran},
+abstract = {Earthquake-induced ground shaking near rupturing faults typically contains strong velocity pulses dictated by the fault rupture characteristics and seismic wave propagation patterns, and can cause significant damage to civil structures compared to ground shaking at locations further away from the fault. Therefore, modeling of the nonlinear, and especially degrading, behavior of near-fault structures with a high degree of fidelity is important for evaluating the structural demands in geographical regions proximate to active faults. Several alternative modeling strategies of varying fidelities exist for representing damage mechanisms in structures under dynamic earthquake loading, but it remains unclear the extent to which the specific choice of modeling strategy affects the estimated risks to near-fault structures. In this study, we examine the bias associated with the predicted seismic demands on near-fault reinforced concrete structures due to deficiencies in the modeling of the degrading behavior of the structural components. We test the use of three different modeling approaches which represent the deterioration of the structural components in different ways: (1) a lumped-plasticity frame model which cumulatively represents several damage mechanisms using nonlinear springs at the ends of the structural components, (2) a conventional distributed-plasticity frame model which represents the deterioration of the concrete and steel materials using uniaxial constitutive models, but is subject to numerical singularities, and (3) a regularized distributed-plasticity frame model recently developed by the authors which utilizes a nonlocal damage technique to overcome artificial strain singularities in representing the deterioration of the concrete and steel materials. We conduct a series of nonlinear dynamic analyses to predict the seismic demands imposed by representative ensembles of near-fault ground motions on structures located between 1 and 15 km away from the fault, and we compare the statistical distributions of the demands associated with each damage modeling approach. The findings of this study highlight the advantages and deficiencies of the different structural modeling strategies in the seismic analysis of degrading systems, and will aid in quantifying the modeling uncertainty associated with performance-based design of near-fault structures.},
+html = {https://www.osti.gov/biblio/2396435},
+pdf = {https://www.mahakenawy.com/_files/ugd/e274d3_b4dfd379f6d34758b4e578b1085460cf.pdf},
 journal = {Proceedings of the 18th World Conference on Earthquake Engineering},
-number = {},
-volume = {},
 place = {Milan, Italy},
 year = {2024},
-month = {July}
+month = {July},
+bibtex_show = {true}
 }
 
 @article{giffin_2024a,
-author = {Giffin, Brian D. and Zoller, Miklos J.},
+author = {Giffin, Brian Doran and Zoller, Miklos J.},
 title = {A layered solid finite element formulation with interlaminar enhanced displacements for the modeling of laminated composite structures},
 journal = {International Journal for Numerical Methods in Engineering},
 volume = {125},
@@ -41,110 +42,136 @@ pages = {e7581},
 keywords = {finite element method, interlaminar enhancements, laminated composites, layered solid element},
 doi = {https://doi.org/10.1002/nme.7581},
 url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7581},
+html = {https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7581},
+pdf = {https://onlinelibrary.wiley.com/doi/epdf/10.1002/nme.7581},
 eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/nme.7581},
 abstract = {Abstract Accurate modeling of layered composite structures often requires the use of detailed finite element models which can sufficiently resolve the kinematics and material behavior within each layer of the composite. However, individually discretizing each material layer into finite elements presents a prohibitive computational expensive given the large number of thin layers comprising some laminated composites. To address these challenges, an 8-node layered solid hexahedral finite element is formulated with the aim of striking an appropriate balance between efficiency and fidelity. The element is discretized into an arbitrary number of distinct material layers, and employs reduced in-plane integration within each layer. The chosen reduced integration scheme is supplemented by a novel physical stabilization approach which includes layerwise enhancements to mitigate various forms of locking phenomena. The proposed framework additionally supports the inclusion of interlaminar enhanced displacements to better represent the kinematics of general layered composite materials. The described element formulation has been implemented in the ParaDyn finite element code, and its efficacy for modeling laminated composite structures is demonstrated on a variety of verification problems.},
 year = {2024},
-selected = {true}
+selected = {true},
+bibtex_show = {true}
 }
 
 @article{giffin_2023,
 title = {A smeared crack modeling framework accommodating multi-directional fracture at finite strains},
-author = {Giffin, Brian D. and Zywicz, Edward},
-annote = {A generic smeared crack modeling framework predicated on the deformation gradient decomposition (DGD) approach is proposed for use in dynamic fracture problems at finite strains, accommodating failure along multiple mutually orthogonal fracture planes embedded within an independently defined bulk material model. Within this constitutive framework, the traction equilibrium conditions imposed at each failure surface are used to determine the associated crack displacements stored as internal state variables. In general, the enforcement of interfacial equilibrium entails the implicit solution of a non-linear system of equations within the constitutive update procedure. However, if inertial effects arising due to the relative motion of the fractured material are incorporated within the model, the traction equilibrium conditions are shown to give rise to corresponding dynamic equations of motion governing the time-evolution of the crack opening displacements. For dynamic problems, an explicit time-integration procedure is devised to efficiently update the material state, subject to a set of internal frictionless contact constraints to prevent material inversion. The efficacy of the proposed modeling framework is investigated through several benchmark dynamic fracture problems run within the explicit finite element code DYNA3D.},
+author = {Giffin, Brian Doran and Zywicz, Edward},
+abstract = {A generic smeared crack modeling framework predicated on the deformation gradient decomposition (DGD) approach is proposed for use in dynamic fracture problems at finite strains, accommodating failure along multiple mutually orthogonal fracture planes embedded within an independently defined bulk material model. Within this constitutive framework, the traction equilibrium conditions imposed at each failure surface are used to determine the associated crack displacements stored as internal state variables. In general, the enforcement of interfacial equilibrium entails the implicit solution of a non-linear system of equations within the constitutive update procedure. However, if inertial effects arising due to the relative motion of the fractured material are incorporated within the model, the traction equilibrium conditions are shown to give rise to corresponding dynamic equations of motion governing the time-evolution of the crack opening displacements. For dynamic problems, an explicit time-integration procedure is devised to efficiently update the material state, subject to a set of internal frictionless contact constraints to prevent material inversion. The efficacy of the proposed modeling framework is investigated through several benchmark dynamic fracture problems run within the explicit finite element code DYNA3D.},
 doi = {10.1007/s10704-022-00665-9},
 url = {https://doi.org/10.1007/s10704-022-00665-9},
+html = {https://doi.org/10.1007/s10704-022-00665-9},
+pdf = {https://link.springer.com/content/pdf/10.1007/s10704-022-00665-9.pdf},
 journal = {International Journal of Fracture},
-number = {},
 volume = 239,
 issue = 1,
 pages = {87-109},
 place = {United States},
 year = {2023},
 month = {01},
-selected = {true}
+selected = {true},
+bibtex_show = {true}
 }
 
 @techreport{giffin_2022,
-  author       = {Giffin, Brian D.},
+  author       = {Giffin, Brian Doran},
   title        = {BCLink User Documentation},
   institution  = {Lawrence Livermore National Lab. (LLNL), Livermore, CA (United States)},
-  annote       = {BCLink is a shared programming library providing general functionality to read temporally- and spatially-varying boundary condition data (contained in Exodus files) into MDG codes (ParaDyn and Diablo). This document is intended for prospective users of BCLink, presenting a summary of the available features of the library, including details regarding the input syntax with accompanying examples. The library’s capabilities are demonstrated through example problems run in ParaDyn, and using the BCRemap command line utility – a stand-alone preprocessing tool which leverages the native functionality provided by the BCLink library to remap surface data between dissimilar meshes.},
+  abstract     = {BCLink is a shared programming library providing general functionality to read temporally- and spatially-varying boundary condition data (contained in Exodus files) into MDG codes (ParaDyn and Diablo). This document is intended for prospective users of BCLink, presenting a summary of the available features of the library, including details regarding the input syntax with accompanying examples. The library’s capabilities are demonstrated through example problems run in ParaDyn, and using the BCRemap command line utility – a stand-alone preprocessing tool which leverages the native functionality provided by the BCLink library to remap surface data between dissimilar meshes.},
   doi          = {10.2172/1889533},
   url          = {https://www.osti.gov/biblio/1889533},
+  html         = {https://www.osti.gov/biblio/1889533},
+  pdf          = {https://www.osti.gov/servlets/purl/1889533},
   place        = {United States},
   year         = {2022},
-  month        = {09}
+  month        = {09},
+bibtex_show = {true}
 }
 
 @techreport{giffin_2020,
-  author       = {Giffin, Brian D.},
+  author       = {Giffin, Brian Doran},
   title        = {Shell Element Material Model Verification Problems for DYNA3D: Part II},
   institution  = {Lawrence Livermore National Lab. (LLNL), Livermore, CA (United States)},
-  annote       = {A suite of supplementary shell element material model verification tests were developed for the explicit finite element program DYNA3D, in continuation of the work performed in LLNL-TR-792469 (Shell Element Material Model Verification Problems for DYNA3D). The testing procedure developed in the preceding report is extended, and used to verify all remaining untested shell model features and inputs. A collection of 78 feature-specific verification tests are proposed, some of which are applicable to multiple material models, though many are specialized to a particular model. The collective suite of tests cover all 27 currently available material models in DYNA3D. In the course of developing the proposed test suite, 24 separate shell model-related issues were identified and have subsequently been resolved.},
+  abstract     = {A suite of supplementary shell element material model verification tests were developed for the explicit finite element program DYNA3D, in continuation of the work performed in LLNL-TR-792469 (Shell Element Material Model Verification Problems for DYNA3D). The testing procedure developed in the preceding report is extended, and used to verify all remaining untested shell model features and inputs. A collection of 78 feature-specific verification tests are proposed, some of which are applicable to multiple material models, though many are specialized to a particular model. The collective suite of tests cover all 27 currently available material models in DYNA3D. In the course of developing the proposed test suite, 24 separate shell model-related issues were identified and have subsequently been resolved.},
   doi          = {10.2172/1668518},
   url          = {https://www.osti.gov/biblio/1668518},
+  html         = {https://www.osti.gov/biblio/1668518},
+  pdf          = {https://www.osti.gov/servlets/purl/1668518},
   place        = {United States},
   year         = {2020},
-  month        = {09}
+  month        = {09},
+bibtex_show = {true}
 }
 
 @techreport{giffin_2019b,
-  author       = {Giffin, Brian D.},
+  author       = {Giffin, Brian Doran},
   title        = {Shell Element Material Model Verification Problems for DYNA3D},
   institution  = {Lawrence Livermore National Laboratory (LLNL), Livermore, CA (United States)},
-  annote       = {A suite of shell element material model verification tests were developed for the explicit finite element program DYNA3D. Each test consists of a single quadrilateral shell element, whose nodal displacements and rotations have been prescribed such that the deformation of the material is fully controlled throughout the analysis. At one of the element’s integration points, the numerically computed stress, through-thickness strain, and equivalent plastic strain are compared against closed-form reference solutions that are derived to be consistent with the theory of finite deformation elasto-plasticity. A collection of 31 feature-specific verification tests are proposed, each of which may be used to verify all models which share in common the tested feature of interest. For each material model, a subset of these tests are selected and used to verify the correct behavior of all features of the model. The collective suite of tests cover 26 of the 27 currently available material models in DYNA3D. In the course of developing the proposed test suite, 18 implementation bugs were identified and have subsequently been resolved.},
+  abstract     = {A suite of shell element material model verification tests were developed for the explicit finite element program DYNA3D. Each test consists of a single quadrilateral shell element, whose nodal displacements and rotations have been prescribed such that the deformation of the material is fully controlled throughout the analysis. At one of the element’s integration points, the numerically computed stress, through-thickness strain, and equivalent plastic strain are compared against closed-form reference solutions that are derived to be consistent with the theory of finite deformation elasto-plasticity. A collection of 31 feature-specific verification tests are proposed, each of which may be used to verify all models which share in common the tested feature of interest. For each material model, a subset of these tests are selected and used to verify the correct behavior of all features of the model. The collective suite of tests cover 26 of the 27 currently available material models in DYNA3D. In the course of developing the proposed test suite, 18 implementation bugs were identified and have subsequently been resolved.},
   doi          = {10.2172/1569660},
   url          = {https://www.osti.gov/biblio/1569660},
+  html         = {https://www.osti.gov/biblio/1569660},
+  pdf          = {https://www.osti.gov/servlets/purl/1569660},
   place        = {United States},
   year         = {2019},
-  month        = {09}
+  month        = {09},
+bibtex_show = {true}
 }
 
 @techreport{giffin_2019a,
-  author       = {Giffin, Brian D.},
+  author       = {Giffin, Brian Doran},
   title        = {Verification Problems for Parameterized Load Curves in DYNA3D},
   institution  = {Lawrence Livermore National Lab. (LLNL), Livermore, CA (United States)},
-  annote       = {Two verification problems are presented which test a set of newly implemented load curve features in the explicit finite element program DYNA3D. Each test consists of a single element, with the velocity of each node specified via a different load curve type. The first test covers initialization and run-time execution of these new features, while the second test covers redefinition of load curves upon restart. The proposed problems may be easily extended to test additional load curve features.},
+  abstract     = {Two verification problems are presented which test a set of newly implemented load curve features in the explicit finite element program DYNA3D. Each test consists of a single element, with the velocity of each node specified via a different load curve type. The first test covers initialization and run-time execution of these new features, while the second test covers redefinition of load curves upon restart. The proposed problems may be easily extended to test additional load curve features.},
   doi          = {10.2172/1499983},
   url          = {https://www.osti.gov/biblio/1499983},
+  html         = {https://www.osti.gov/biblio/1499983},
+  pdf          = {https://www.osti.gov/servlets/purl/1499983},
   place        = {United States},
   year         = {2019},
-  month        = {01}
+  month        = {01},
+bibtex_show = {true}
 }
 
 @phdthesis{giffin_2018,
-author={Giffin,Brian D.},
+author={Giffin, Brian Doran},
 year={2018},
 title={Partitioned Polytopal Finite-Element Methods for Nonlinear Solid Mechanics},
 journal={ProQuest Dissertations and Theses},
 pages={148},
-note={Copyright - Database copyright ProQuest LLC; ProQuest does not claim copyright in the individual underlying works; Last updated - 2023-03-02},
+note={ProQuest},
 abstract={This work presents a novel polytopal finite-element framework that addresses the collective issues of discretization sensitivity and mesh generation for computational solid mechanics problems. The use of arbitrary polygonal and polyhedral shapes in place of canonical isoparametric elements seeks to remediate issues pertaining to meshing and mesh quality (particularly for irregularly shaped elements), while maintaining many of the desirable features of a traditional finite element method. A general class of partitioned element methods (PEM) is proposed and analyzed, constituting a family of approaches for constructing piecewise polynomial approximations to harmonic shape functions on arbitrary polytopes. Such methods require a geometric partition of each element, and under certain conditions will directly yield integration consistency. Two partitioned element methods are explored in detail, including a novel approach herein referred to as the discontinuous Galerkin partitioned-element method (DG-PEM). An implementational framework for the DG-PEM is presented, along with a discussion of its associated numerical challenges. The numerical precision of the PEM is explored via classical patch tests and single element tests for a representative sampling of polygonal element shapes. Solution sensitivity with respect to element shape is examined for a handful of problems, including a mesh convergence study in the nearly incompressible regime. Finally, the efficacy of the DG-PEM is assessed for a number of benchmark problems involving large deformations and nonlinear material behavior.},
 keywords={Applied sciences; Physical sciences; Element; Mechanics; Nonlinear; PEM; Partitioned; Polytopal; Computational physics; Applied mathematics; 0346:Mechanics; 0216:Computational physics; 0364:Applied Mathematics},
 isbn={978-0-438-28961-1},
 language={English},
 url={http://argo.library.okstate.edu/login?url=https://www.proquest.com/dissertations-theses/partitioned-polytopal-finite-element-methods/docview/2091485390/se-2},
+html={http://argo.library.okstate.edu/login?url=https://www.proquest.com/dissertations-theses/partitioned-polytopal-finite-element-methods/docview/2091485390/se-2},
+pdf={https://media.proquest.com/media/hms/ORIG/2/s0M6K?cit%3Aauth=Giffin%2C+Brian+Doran&cit%3Atitle=Partitioned+Polytopal+Finite-Element+Methods+for+Nonlinear+Solid+Mechanics&cit%3Apub=ProQuest+Dissertations+and+Theses&cit%3Avol=&cit%3Aiss=&cit%3Apg=&cit%3Adate=2018&ic=true&cit%3Aprod=ProQuest&_a=ChgyMDI1MDExMzIxNTQyMzk3MDo1ODUyODkSBjExOTU3MxoKT05FX1NFQVJDSCIOMTM5Ljc4LjIyNy4xMDgqBTE4NzUwMgoyMDkxNDg1MzkwOg1Eb2N1bWVudEltYWdlQgExUgZPbmxpbmVaAkZUYgNQRlRqAHIAegCCASRQLTEwMTAyNjgtNDExNy1DVVNUT01FUi1udWxsLTcwOTY1MjiSAQZPbmxpbmXKAXVNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC82MDUuMS4xNSAoS0hUTUwsIGxpa2UgR2Vja28pIFZlcnNpb24vMTcuNSBTYWZhcmkvNjA1LjEuMTXSARZEaXNzZXJ0YXRpb25zICYgVGhlc2VzmgIHUHJlUGFpZKoCK09TOkVNUy1NZWRpYUxpbmtzU2VydmljZS1nZXRNZWRpYVVybEZvckl0ZW3KAhNEaXNzZXJ0YXRpb24vVGhlc2lz0gIBWfICAPoCAVmCAwNXZWKKAxxDSUQ6MjAyNTAxMTMyMTU0MjM5NzA6ODczNTY3&_s=UPA1K%2FuR0oKBS%2BMaPc%2Bw2sUIwfA%3D},
+bibtex_show = {true}
 }
 
 @techreport{giffin_2015,
-  author       = {Giffin, Brian D.},
+  author       = {Giffin, Brian Doran},
   title        = {Verification Tests for Sierra/SM's Reproducing Kernal Particle Method},
   institution  = {Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)},
-  annote       = {This report seeks to verify the proper implemention of RKPM within Sierra by comparing the results from several basic example problems excecuted with RKPM against the analytical and FEM solutions for these same problems. This report was compiled as a summer student intern project.},
+  abstract     = {This report seeks to verify the proper implemention of RKPM within Sierra by comparing the results from several basic example problems excecuted with RKPM against the analytical and FEM solutions for these same problems. This report was compiled as a summer student intern project.},
   doi          = {10.2172/1411850},
   url          = {https://www.osti.gov/biblio/1411850},
+  html         = {https://www.osti.gov/biblio/1411850},
+  pdf          = {https://www.osti.gov/servlets/purl/1411850},
   place        = {United States},
   year         = {2015},
-  month        = {09}
+  month        = {09},
+bibtex_show = {true}
 }
 
 @conference{giffin_2013,
   author       = {Bishop, Joseph E. and Giffin, Brian Doran and Pott, John},
-  title        = {Verification of a Convergent Meshless Method in Sierra Solid Mechanics.},
-  annote       = {Standard finite-element discretizations in solid mechanics consist of basis functions defined on simple element shapes such as hexahedra. While the use of these standard element shapes is expedient for computational software development, their use in the modeling of extreme deformation processes, such as fracture, pervasive failure, and penetration, is too limiting. Furthermore, the amount of effort required to create hexahedral meshes on geometrically complex shapes is time consuming and thus costly. Several other discretization methods exist for modeling extreme deformation processes, e.g. the nodally integrated Reproducing Kernel Particle Method (RKPM). The primary goal of this project is to implement existing and new RKPM technology into Sierra Solid Mechanics for the modeling of extreme deformation processes including fracture and fragmentation.},
+  title        = {Verification of a Convergent Meshless Method in Sierra Solid Mechanics},
+  abstract     = {Standard finite-element discretizations in solid mechanics consist of basis functions defined on simple element shapes such as hexahedra. While the use of these standard element shapes is expedient for computational software development, their use in the modeling of extreme deformation processes, such as fracture, pervasive failure, and penetration, is too limiting. Furthermore, the amount of effort required to create hexahedral meshes on geometrically complex shapes is time consuming and thus costly. Several other discretization methods exist for modeling extreme deformation processes, e.g. the nodally integrated Reproducing Kernel Particle Method (RKPM). The primary goal of this project is to implement existing and new RKPM technology into Sierra Solid Mechanics for the modeling of extreme deformation processes including fracture and fragmentation.},
   url          = {https://www.osti.gov/biblio/1664749},
+  html         = {https://www.osti.gov/biblio/1664749},
+  poster       = {https://www.osti.gov/servlets/purl/1664749},
   place        = {United States},
   organization = {Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)},
   year         = {2013},
-  month        = {08}
+  month        = {08},
+bibtex_show = {true}
 }

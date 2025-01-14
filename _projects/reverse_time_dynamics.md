@@ -4,7 +4,7 @@ title: Time-reversible computational methods
 description: Exploration of exactly "bit-reversible" dynamic time-integrators
 img: assets/img/reverse_time_dynamics/memento_vs_tenet_cover.png
 importance: 2
-category: work
+category: research
 ---
 
 As interest in inverse problems and their related applications continues to grow across a wide range of disciplines of science and engineering, the size and complexity of inverse problems of practical interest is also increasing, introducing new challenges and potential barriers to the solution of large-scale inverse problems of emergent interest.
