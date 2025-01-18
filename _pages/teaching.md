@@ -22,4 +22,7 @@ I teach a variety of courses related to structural/solid mechanics and finite el
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="https://www.youtube.com/embed/videoseries?si=QNL6aJ-veX-dVNWK&amp;list=PLB_WnIf1Nsmp_hfERgpt_TdRrbt-pWRKh" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/videoseries?si=MkupuENkiBpbwOdU&amp;list=PLB_WnIf1NsmqWgsJQA8dGMrdIjQ31aa_Z" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
