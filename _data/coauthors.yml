@@ -1,3 +1,7 @@
+"poudel":
+  - firstname: ["Himamshu", "H"]
+    url: https://bdgiffin.github.io/people/
+
 "kenawy":
   - firstname: ["Maha", "M"]
     url: https://www.mahakenawy.com
@@ -17,3 +21,7 @@
 "pott":
   - firstname: ["John"]
     url: https://www.linkedin.com/in/john-pott-9068b085/
+
+"rashid":
+  - firstname: ["Mark", "M"]
+    url: https://cee.engineering.ucdavis.edu/people/mark-rashid
