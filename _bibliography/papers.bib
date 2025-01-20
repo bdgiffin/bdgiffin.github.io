@@ -1,6 +1,21 @@
 ---
 ---
 
+@conference{giffin_2025a,
+title = {Exactly bit-reversible computational methods for memory-efficient adjoint sensitivity analysis of dissipative dynamic systems},
+author = {Giffin, Brian Doran},
+abstract = {As interest in inverse problems continues to grow across a wide range of disciplines of science and engineering, the size and complexity of inverse problems of practical interest is also increasing. Inverse problems involving time-dependent dynamic systems with a large number of design parameters commonly employ the adjoint state method to compute design parameter sensitivities within a gradient-based optimization framework. For forward analyses entailing a large number of time steps (such as for transient dynamic systems), solution of the adjoint problem may incur excessive memory, I/O, or computational costs which cannot be entirely ameliorated through conventional solution checkpointing schemes, ultimately limiting scalability and efficiency in solving larger problems of emergent interest. To overcome these limitations, a systematic approach is proposed for the development of exactly “bit-reversible” computational methods, enabling prior time states to be rematerialized by reversing the steps of the forward analysis, thereby reducing the additional memory requirements and computational overheads associated with the adjoint state method. Within the proposed framework, a duplicate set of adjoint variables are introduced as ancillary data buffers which continuously accumulate roundoff bits due to finite-precision arithmetic during solution of the forward problem. Upon time-reversal of the forward problem accompanying the solution of the adjoint problem, the roundoff bits are restored to ensure that prior solution states are precisely rematerialized. Utilizing this approach, several foundational bit-reversible algorithms are devised, including a memory-efficient bit-reversible matrix multiplication/inversion algorithm, and exactly bit-reversible explicit time integrators. The developed algorithms are predicated on the use of fixed-precision arithmetic, and are implemented within a proof-of-concept open source library. The computational performance characteristics of the proposed methods are demonstrated through several benchmark problems with intended applications for inverse analysis of dissipative dynamic systems.},
+url = {https://usnccm18.usacm.org},
+html = {https://usnccm18.usacm.org},
+%pdf = {},
+%slides = {},
+journal = {18th U.S. National Congress on Computational Mechanics},
+place = {Chicago, IL},
+year = {2025},
+month = {July},
+bibtex_show = {true}
+}
+
 @conference{poudel_2025a,
 title = {Fragility Analysis of Transmission Towers through Physics-Based Modeling of Tornado-Induced Wind and Debris Impact Loads},
 author = {Poudel, Himamshu and Giffin, Brian Doran},
