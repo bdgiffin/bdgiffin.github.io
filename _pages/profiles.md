@@ -16,7 +16,7 @@ profiles:
     more_info: >
       <p>brian.giffin@okstate.edu</p>
   - align: left
-    image: SWIRL_demo.gif
+    image: poudel_headshot.jpg
     content: about_poudel.md
     image_circular: false # crops the image to make it circular
     more_info: >
