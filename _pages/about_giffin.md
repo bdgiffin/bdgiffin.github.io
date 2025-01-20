@@ -1,1 +1,1 @@
-Assistant Professor and head of the research group.
+Assistant Professor at Oklahoma State University; research group director.
