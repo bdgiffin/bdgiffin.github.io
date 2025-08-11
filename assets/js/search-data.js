@@ -79,7 +79,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-interactive-multi-physics-analysis-in-real-time-impart",
+            },{id: "post-icccm8",
+      
+        title: "ICCCM8",
+      
+      description: "Hyper-dimensional gap finite elements for the enforcement of frictionless contact",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/ICCCM8/";
+        
+      },
+    },{id: "post-usnccm18",
+      
+        title: "USNCCM18",
+      
+      description: "Exactly bit-reversible computational methods for memory-efficient adjoint sensitivity analysis of dissipative dynamic systems",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/USNCCM18/";
+        
+      },
+    },{id: "post-interactive-multi-physics-analysis-in-real-time-impart",
       
         title: "Interactive Multi-Physics Analysis in Real-Time (IMPART)",
       
