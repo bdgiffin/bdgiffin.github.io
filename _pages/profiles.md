@@ -17,8 +17,20 @@ profiles:
       <p>brian.giffin@okstate.edu</p>
   - align: left
     image: poudel_headshot.jpg
-    content: about_poudel.md
+    content: about_himamshu_poudel.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>himamshu.poudel10@okstate.edu</p>
+  - align: left
+    image: 
+    content: about_suman_poudel.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>suman.poudel@okstate.edu</p>
+  - align: left
+    image: 
+    content: about_alibakhshi.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>malibak@okstate.edu</p>
 ---
