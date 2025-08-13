@@ -79,9 +79,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-icccm8",
+            },{id: "post-icccm8-conference-presentation-on-quot-hyper-dimensional-gap-finite-elements-for-the-enforcement-of-frictionless-contact-quot",
       
-        title: "ICCCM8",
+        title: "ICCCM8 Conference Presentation on &quot;Hyper-dimensional gap finite elements for the enforcement of frictionless...",
       
       description: "Hyper-dimensional gap finite elements for the enforcement of frictionless contact",
       section: "Posts",
@@ -90,9 +90,9 @@ ninja.data = [{
           window.location.href = "/blog/2025/ICCCM8/";
         
       },
-    },{id: "post-usnccm18",
+    },{id: "post-usnccm18-conference-presentation-on-quot-exactly-bit-reversible-computational-methods-for-memory-efficient-adjoint-sensitivity-analysis-of-dissipative-dynamic-systems-quot",
       
-        title: "USNCCM18",
+        title: "USNCCM18 Conference Presentation on &quot;Exactly bit-reversible computational methods for memory-efficient adjoint sensitivity analysis...",
       
       description: "Exactly bit-reversible computational methods for memory-efficient adjoint sensitivity analysis of dissipative dynamic systems",
       section: "Posts",
