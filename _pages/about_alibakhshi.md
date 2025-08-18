@@ -1,1 +1,3 @@
+**Mohammadamin Alibakhshi**
+
 PhD student investigating the efficacy of using bit-reversible computational methods for dissipative dynamic systems to solve large-scale optimization and inverse problems.
