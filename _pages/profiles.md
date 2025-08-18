@@ -28,7 +28,7 @@ profiles:
     more_info: >
       <p>suman.poudel@okstate.edu</p>
   - align: left
-    image: 
+    image: Amin_Bakhshi.jpg
     content: about_alibakhshi.md
     image_circular: false # crops the image to make it circular
     more_info: >
