@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "people",
-          description: "If you are interested in joining our research group, please reach out to Brian Giffin by email.",
+          description: "If you are interested in joining our research group, please reach out to Brian Giffin by email. You can also review our group&#39;s Graduate Handbook to see how we operate.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
