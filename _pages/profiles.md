@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: If you are interested in joining our research group, please reach out to Brian Giffin by email. You can also review our group's <a href='/assets/pdf/giffin_group_graduate_handbook_DRAFT.pdf' style='color:#0000FF;'>Graduate Handbook</a> to see how we operate.
+description: If you are interested in joining our research group, please reach out to Brian Giffin by email. You can also review our group's <a href='https://bdgiffin.github.io/Giffin-Group-Graduate-Handbook/giffin_group_graduate_handbook.pdf' style='color:#0000FF;'>Graduate Handbook</a> to see how we operate.
 nav: true
 nav_order: 7
 
